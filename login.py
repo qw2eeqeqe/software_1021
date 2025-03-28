@@ -4,8 +4,7 @@ def login(username, password):
     Simple login function that checks credentials
     Returns True if login is successful, False otherwise
     """
-    # Example credentials (don’t use this in real apps—it’s not secure!)
-    valid_credentials = {
+
         "user1": "password123",
         "admin": "admin456"
     }
@@ -14,7 +13,6 @@ def login(username, password):
         return True
     return False
 
-# Test the function
 if __name__ == "__main__":
     user = input("Enter username: ")
     pwd = input("Enter password: ")
